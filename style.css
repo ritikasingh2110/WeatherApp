@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to right, #4facfe, #00f2fe); */
+    background: linear-gradient(to bottom right, #2c2c2c, #000000);
+    color: white;
+    height: 100vh;
+}
+.cname{
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    /* text-decoration: wavy; */
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.search{
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: rgb(218, 218, 211);
+    font-style: italic;
+
+}
+
+button:hover{
+    background-color: rgb(247, 218, 144);
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+#t,#detail {
+    max-width: 300px;
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#detail{
+    width: 200px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-content: center;
+    padding-left: 50px;
+    /* font-size: 17px; */
+}
+
+#map iframe {
+    width: 400px;
+    height: 300px;
+    border: none;
+}
+
+.forcastdate{
+    text-decoration: underline;
+}
+
+#day {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    background: rgba(255,255,255,0.1);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.tempe{
+    font-size: 50px;
+}

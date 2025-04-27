@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Website</title>
+    <script src="https://kit.fontawesome.com/b8f397292a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="conatiner">
+      <center><h1>Weather Forcast Website 🌦️ </h1></center>
+
+      <center><div class="search">
+        <input type="text" id="city" placeholder="Enter city name..." />
+        <button onclick="getWeather()">Search</button>
+      </div></center>
+
+      <div class="main">
+        <div id="t"></div>
+        <div id="detail"></div>
+        <div id="map"></div>
+      </div>
+
+      <center><h2>5-Day Forecast</h2></center>
+      <div id="day"></div>
+    </div>
+  </body>
+</html>
+<script src="main.js"></script>
